@@ -1,8 +1,9 @@
 1. Clone this repo on .config/
-2. Install Packer from:
+2. Rename it to nvim/ and cd into it
+3. Install Packer from:
 https://github.com/wbthomason/packer.nvim
-3. Open lua/gustavs/packer.lua with nvim (press enter to skip messages)
-4. Tnen source file and sync Packer: 
+4. Open lua/gustavs/packer.lua with nvim (press enter to skip messages)
+5. Tnen source file and sync Packer: 
 :so 
 :PackerSync
-5. Enjoy.
+6. Enjoy.
