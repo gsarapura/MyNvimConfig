@@ -68,12 +68,14 @@ return require('packer').startup(function(use)
 
   -- https://github.com/numToStr/Comment.nvim
   use {
-	  'numToStr/Comment.nvim',
-	  config = function()
-		  require('Comment').setup()
-	  end
+	  'numToStr/Comment.nvim'
+	  --config = function()
+	  --  require('Comment').setup()
+	  --end
   }
 
+  -- https://github.com/JoosepAlviste/nvim-ts-context-commentstring
+  use 'JoosepAlviste/nvim-ts-context-commentstring'
 
   use {
 	  'nvim-lualine/lualine.nvim',
