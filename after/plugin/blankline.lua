@@ -37,7 +37,7 @@ require("ibl").setup {
         show_start = false,
         show_end = false,
         highlight = highlight,
-        node_type = { lua = { "block", "chunk" } },
+        -- node_type = { lua = { "block", "chunk" } },
         priority = 500
     }
 }
